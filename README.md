@@ -1,6 +1,16 @@
 # PacketSniper
 This software is an analyzer that produces valuable information, given a captured trace file.
 
+Getting Started:
+----------------
+This software is an analizer that takes a captured trace file as an input and detects valuable information regarding the packets of the trace and according to the arguments given. PacketSniper stores results found in .txt files. USE IT ONLY FOR SECURITY PUROPOSES. 
+
+Installation Instructions:
+--------------------------
+1. Clone or download this repository.
+2. Download and install libpcap (http://www.tcpdump.org/).
+3. Compile and enjoy! :)
+
 Compile using:
 --------------
 gcc -Wall -lpcap sniffer.c -o sniffer
@@ -23,3 +33,14 @@ Available arguments to give:
 -pl or -payload: to create the file 'payload_of_packets.txt' that shows the payload of all packets.
 
 NOTE THAT THE TRACE_FILENAME SHOULD BE THE FIRST ARGUMENT GIVEN!!!
+
+Authors:
+--------
+Antreas Dionysiou(@dionisole)
+
+Licence:
+--------
+Please see LICENSE.md file for details
+
+General Notes:
+--------------
