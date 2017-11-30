@@ -49,3 +49,4 @@ Please see LICENSE.md file for details
 
 General Notes:
 --------------
+Please feel free to use PacketSniper. Enjoy :)
