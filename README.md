@@ -1,5 +1,5 @@
 # PacketSniper
-This software is an analyzer that produces valuable information, given a captured trace file.
+This software is an analyzer that produces valuable information, given a captured trace file using libpcap.
 
 Getting Started:
 ----------------
