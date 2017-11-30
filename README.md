@@ -17,11 +17,11 @@ gcc -Wall -lpcap packetSniper.c -o packetSniper
 
 Execute using:
 --------------
-./sniffer (show help)
+./packetSniper (show help)
 or
-./sniffer trace_filename (show total packets of ‘trace_filename’)
+./packetSniper trace_filename (show total packets of ‘trace_filename’)
 or
-./sniffer trace_filename arg1 arg2 -… (extract other information)
+./packetSniper trace_filename arg1 arg2 -… (extract other information)
 
 Available arguments to give:
 ----------------------------
