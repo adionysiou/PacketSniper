@@ -13,7 +13,7 @@ Installation Instructions:
 
 Compile using:
 --------------
-gcc -Wall -lpcap sniffer.c -o sniffer
+gcc -Wall -lpcap packetSniper.c -o packetSniper
 
 Execute using:
 --------------
