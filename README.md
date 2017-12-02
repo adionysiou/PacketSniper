@@ -29,7 +29,7 @@ Available arguments to give:
 
 -ip_add or -ip_src_dest_address: to create the file 'ipaddresess_used.txt' that shows src,dest ip addresses used for each packet.
 
--f or -tcp_flags: to create the file 'tcpflags_used.txt' that shows all raised tcp flags for each packet.
+-open_ports: to create the files 'open_ports_found.txt' that shows all open ports for connection to the destination discovered, and 'tcpflags_used.txt' file that shows all raised tcp flags for each packet.
 
 -dport or -destination_port: to create the file 'destports_used.txt' that shows destination port used, for each packet.
 
